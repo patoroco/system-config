@@ -1,4 +1,4 @@
-export PS1='\n\n\e[1;34m\e[0;34m \u@\h: \e[0;31m\W \e[0;34m$\e[0m '
+export PS1='\n\n\e[1;34m\e[0;34m \u@\h: \e[0;31m\W \e[0;34m$\e[0m'
 export PS1='\n\e[37m \e[35m\u : \e[1;31m\W \e[0;36m\$ \e[0m'
 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
@@ -11,4 +11,5 @@ LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
 
 alias vi="vim"
-alias mvim="open -a /Applications/MacVim.app"
+
+alias iphonesimulator="cd ~/Library/Application\ Support/iPhone\ Simulator/5.1"
