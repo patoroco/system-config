@@ -1,4 +1,4 @@
-Mis scripts
-===========
-* .vimrc con mis configuraciones para vim.
-* .profile con la configuración de la cuenta (colores / alias / etc.).
+Personal scripts
+================
+* .vimrc - config for vim editor.
+* .profile - includes some alias, but mainly contains configurations for put color in my terminal :)
