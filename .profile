@@ -11,5 +11,5 @@ LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
 
 alias vi="vim"
-alias drush="~/PHPDev/drush/drush"
+alias drush="~/Documents/PHPDev/drush/drush"
 alias iphonesimulator="cd ~/Library/Application\ Support/iPhone\ Simulator/5.0"
