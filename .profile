@@ -13,5 +13,6 @@ export LSCOLORS
 alias vi="vim"
 alias drush="~/Documents/PHPDev/drush/drush"
 alias iphonesimulator="cd ~/Library/Application\ Support/iPhone\ Simulator/"
+alias mamp="cd /Library/Application\ Support/appsolute/MAMP\ PRO"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
