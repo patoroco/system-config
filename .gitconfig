@@ -2,8 +2,13 @@
 	name = Jorge Maroto
 	email = patoroco@gmail.com
 [alias]
+	c = commit -m
+	ca = commit -am
 	s = status
 	l = log --decorate --graph --oneline
+	tags = log --tags --simplify-by-decoration --pretty="format:%ai %%d"
+	fs = flow feature start
+	ff = flow feature finish
 [core]
 	excludesfile = /Users/patoroco/.gitignore_global
 [difftool "sourcetree"]
@@ -18,3 +23,7 @@
 	diff = auto
 	interactive = auto
 	status = auto
+[mergetool]
+	keepBackup = true
+[push]
+	default = matching
