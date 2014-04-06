@@ -7,18 +7,10 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-#ZSH_THEME="mh"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
-alias drush="~/Documents/PHPDev/drush/drush"
-alias iphonesimulator="cd ~/Library/Application\ Support/iPhone\ Simulator/"
-alias mamp="cd /Library/Application\ Support/appsolute/MAMP\ PRO"
 
-alias ticketea="cd ~/Documents/Ticketea/"
-alias boxoffice="cd ~/Documents/Ticketea/ios-box-office/"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -40,18 +32,16 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(pod git github heroku npm gem brew git-flow ruby rails rake battery brew bundler composer cp node lol osx rvm vagrant xcode catimg git-extras virtualenvwrapper)
+plugins=(pod git git-flow npm gem brew ruby rake brew bundler cp rvm vagrant xcode catimg git-extras virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-export PATH=/Users/patoroco/.rvm/gems/ruby-1.9.3-p327/bin:/Users/patoroco/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/patoroco/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/patoroco/.rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin
-export PATH=$PATH:/Users/patoroco/.rvm/sbin
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/.rvm/bin"
 
 #COCOA PODS
 export LC_ALL="en_US.UTF-8"
 
-
 #VirtualEnvWrapper
-source /Users/patoroco/.rvm/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh

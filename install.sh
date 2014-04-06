@@ -1,9 +1,10 @@
 #!/bin/sh
-echo "Overwrite .profile"
-ln -f .profile ~/.profile
 
-echo "Overwrite .vimrc"
-ln -f .vimrc ~/.vimrc
+mv ~/.zshrc ~/.zshrc.old
+ln -vs $PWD/.zshrc ~/
 
-echo "Overwrite .gitconfig"
-ln -f .gitconfig ~/.gitconfig
+mv ~/.vimrc ~/.vimrc.old
+ln -vs $PWD/.vimrc ~/
+
+mv ~/.gitconfig ~/.gitconfig.old
+ln -vs $PWD/.gitconfig ~/
