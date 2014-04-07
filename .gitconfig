@@ -10,7 +10,7 @@
 	fs = flow feature start
 	ff = flow feature finish
 [core]
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = /Users/patoroco/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
